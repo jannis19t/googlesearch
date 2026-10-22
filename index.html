@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>Google Search | Search</title>
+</head>
+
+<body>
+    <div class="page-glow page-glow--top"></div>
+    <div class="page-glow page-glow--bottom"></div>
+
+    <header class="site-header">
+        <div class="container nav">
+            <a class="brand" href="index.html">
+                <span class="brand-mark">{/}</span>
+                <span class="brand-name">jannis<span>.dev</span></span>
+            </a>
+            <nav class="nav-menu">
+                <a class="nav-link" href="image.html">Obrázky</a>
+                <a class="nav-link" href="advanced.html">Pokročilé hledání</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <p class="eyebrow">01 / HLEDÁNÍ</p>
+        <h1 class="logo">Google<em>.</em></h1>
+
+        <form action="https://www.google.com/search" method="get">
+            <input type="text" name="q" class="search-bar" autofocus>
+            <div class="buttons">
+                <input type="submit" value="Google Search" class="button button-primary">
+                <input type="submit" name="btnI" value="I'm Feeling Lucky" class="button button-secondary">
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <a class="brand" href="index.html">
+                    <span class="brand-mark">{/}</span>
+                    <span class="brand-name">jannis<span>.dev</span></span>
+                </a>
+                <p>Navrženo a vytvořeno s <span>♥</span> a kávou.</p>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 Jannis</span>
+                <div class="validator-links">
+                    <a class="validator-link"
+                        href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjannis.tech%2Fgooglesearch%2Findex.html"
+                        target="_blank" rel="noopener">HTML validátor</a>
+                    <a class="validator-link"
+                        href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjannis.tech%2Fgooglesearch%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&lang=cs"
+                        target="_blank" rel="noopener">CSS validátor</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
